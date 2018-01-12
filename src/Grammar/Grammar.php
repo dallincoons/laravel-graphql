@@ -108,6 +108,6 @@ abstract class Grammar {
 	* @return string
 	*/
 	public function getKey($key) {
-		return sprintf('LOWER(%s)', $key);
+		return strtolower($key);
 	}
 }
